@@ -1,3 +1,3 @@
 # FakeGenerator
 
-## A simple script that generates data such as name, address, license plate, etc. using the Faker library.
+## A simple script that generates name, address, license plate, etc. data in different languages using the Faker library.
