@@ -26,7 +26,7 @@ class Person:
 
     def __repr__(self):
         return f"""Name: {self.name}\nAddress: {self.address}\nAge: {self.age}\nJob: {self.job}
-                License Plate: {self.licenseplate}\nPlace of Birth:{self.placeofbirth}"""
+                License Plate: {self.licenseplate}\nPlace of Birth:{self.placeofbirth}\n\n"""
 
 print("-"*35)
 print("\t\t Fake Generator")
@@ -112,10 +112,9 @@ while True:
             output_list.append(fake.job())
         print(output_list)
     elif var1 == 6:
-        person = Person()
-        person.set_language(language)
         for _ in range(var2):
             person = Person()
+            person.set_language(language)
             output_list.append(person)
         print(output_list)
     else:
